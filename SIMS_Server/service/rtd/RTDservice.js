@@ -1,6 +1,6 @@
 const express = require('express'); //express 클래스 import
 const cors = require('cors'); //CORS 허용하기 위함
-const serverConfig = require('./configure/config').serverConfig;
+const serverConfig = require('../../configure/config').serverConfig;
 const bodyParser = require('body-parser');
 const socketPort = serverConfig.RTDBroadcastPort;
 
